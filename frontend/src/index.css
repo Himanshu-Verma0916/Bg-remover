@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+
+
+*{
+  font-family: Outfit;
+}
+.force-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.slider{
+  -webkit-appearance: none;
+  height: 100%;
+  background: transparent;
+}
+
+.slider::-webkit-slider-thumb{
+  appearance: none;
+  width: 30px;
+  min-height: 30px;
+  background-image: url(/slide_icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-layer {
+  background-image: url(./assets/bg_layer.png);
+}
